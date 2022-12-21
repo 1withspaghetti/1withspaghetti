@@ -4,9 +4,8 @@ I know Java, JS, and HTML/CSS. I use them to make websites (frontend and backend
 
 ---
 
-**Discord (preferred):** `the1withspaghetti#1234`<br>
-**Email (one-way):** contact@1withspaghetti.com
+**Discord:** `the1withspaghetti#5766`<br>
 
 ---
 
-I also have a personal website on this repository that shows off a few of my creations: https://1withspaghetti.com
+I also have a personal website that shows off a few of my creations: https://1withspaghetti.com
