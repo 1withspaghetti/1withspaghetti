@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply w-full bg-gradient-to-b from-light-200 to-light-400 text-dark-100 bg-cover bg-fixed;
+}
+
+html.dark {
+  @apply bg-gradient-to-t from-dark-200 to-dark-400 text-light-100;
+}
