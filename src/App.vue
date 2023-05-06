@@ -82,7 +82,7 @@ function copyText(text: string) {
         <ProjectCard
           title="Annoying Sign-up Form"
           href="https://1withspaghetti.com/projects/sign-up-page/"
-          desc="A over-complicated questionnaire, designed to frustrate you."
+          desc="An over-complicated questionnaire, designed to frustrate you"
           :tech="['js']"
           :delay="1000"
           slide="left"
@@ -91,7 +91,7 @@ function copyText(text: string) {
         </ProjectCard>
       </div>
     </div>
-    <div class="py-4 text-center opacity-50">
+    <!-- <div class="py-4 text-center opacity-50">
       <div>Site made with Vue 3 and Tailwind</div>
       <div>All logos belong to their respective companies</div>
       <div>
@@ -101,7 +101,7 @@ function copyText(text: string) {
         >
         by <a href="https://twitter.com/KS_wktk" class="font-bold">@KS_wktk</a>
       </div>
-    </div>
+    </div> -->
   </div>
   <Notification v-bind="notification" />
 </template>
