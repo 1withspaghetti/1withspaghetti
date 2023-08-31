@@ -12,7 +12,7 @@ function copyText(text: string) {
 </script>
 
 <template>
-  <div class="w-full flex flex-col items-center justify-between relative overflow-x-hidden min-h-screen">
+  <div class="w-full flex flex-col items-center justify-between relative overflow-x-hidden min-h-screen fade-in">
     <div class="fixed w-min top-0 right-0 z-20 m-4">
       <ThemeSwitch></ThemeSwitch>
     </div>
@@ -47,7 +47,7 @@ function copyText(text: string) {
           icon="imgs/spaghetti-share.webp"
           desc="Image and Video hosting website"
           :tech="['vue', 'express', 'ts']"
-          :delay="0"
+          :delay="500"
           slide="left"
         ></ProjectCard>
         <ProjectCard
@@ -56,7 +56,7 @@ function copyText(text: string) {
           icon="imgs/hypixel.webp"
           desc="Simple Minecraft Pit statistics using Hypixel API"
           :tech="['react', 'nextjs', 'ts']"
-          :delay="100"
+          :delay="600"
           slide="right"
         ></ProjectCard>
 
@@ -66,7 +66,7 @@ function copyText(text: string) {
           icon="imgs/texturemc.webp"
           desc="A website for creating Minecraft texture packs"
           :tech="['ts', 'spring']"
-          :delay="300"
+          :delay="800"
           slide="left"
         ></ProjectCard>
         <ProjectCard
@@ -75,7 +75,7 @@ function copyText(text: string) {
           icon="imgs/wordle.png"
           desc="A Bot that automatically solves the popular game of Wordle"
           :tech="['js']"
-          :delay="400"
+          :delay="900"
           slide="right"
         ></ProjectCard>
 
@@ -84,24 +84,13 @@ function copyText(text: string) {
           href="https://1withspaghetti.com/projects/sign-up-page/"
           desc="An over-complicated questionnaire, designed to frustrate you"
           :tech="['js']"
-          :delay="600"
+          :delay="1100"
           slide="left"
         >
           <svg xmlns="http://www.w3.org/2000/svg" class="w-full" viewBox="0 0 48 48" fill="currentColor"><path d="M15.95 35.5h16.1v-3h-16.1Zm0-8.5h16.1v-3h-16.1ZM11 44q-1.2 0-2.1-.9Q8 42.2 8 41V7q0-1.2.9-2.1Q9.8 4 11 4h18.05L40 14.95V41q0 1.2-.9 2.1-.9.9-2.1.9Zm16.55-27.7V7H11v34h26V16.3ZM11 7v9.3V7v34V7Z"/></svg>
         </ProjectCard>
       </div>
     </div>
-    <!-- <div class="py-4 text-center opacity-50">
-      <div>Site made with Vue 3 and Tailwind</div>
-      <div>All logos belong to their respective companies</div>
-      <div>
-        The Duck profile picture belongs to
-        <a href="https://twitter.com/KS_wktk/status/1370702788624142336" class="font-bold"
-          >this animation</a
-        >
-        by <a href="https://twitter.com/KS_wktk" class="font-bold">@KS_wktk</a>
-      </div>
-    </div> -->
   </div>
   <Notification v-bind="notification" />
 </template>
@@ -119,5 +108,16 @@ function copyText(text: string) {
   background-size: 200% 100%;
   background-image: linear-gradient(to right, #3c91f9, #1d4ed8, #3c91f9);
   animation: move-bg 5s infinite linear;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fade-in {
+  animation: fadeIn 500ms ease-in-out;
 }
 </style>
