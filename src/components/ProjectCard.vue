@@ -38,14 +38,14 @@ const props = defineProps<{
 
 <style>
 .card {
-  @apply flex px-2 py-2 w-full max-w-sm bg-light-200 dark:bg-dark-500 rounded-lg shadow-lg hover:scale-[0.98] hover:shadow-md transition-transform;
+  @apply flex px-2 py-2 w-full max-w-sm bg-light-200 dark:bg-dark-600 rounded-lg shadow-lg hover:scale-[0.98] hover:shadow-md transition-transform;
 }
 .slide-from-left {
-  animation: slide-from-left 250ms ease-out var(--delay, 0ms) backwards;
+  animation: slide-from-left 1000ms cubic-bezier(0.190, 1.000, 0.220, 1.000) var(--delay, 0ms) backwards;
 }
 
 .slide-from-right {
-  animation: slide-from-right 250ms ease-out var(--delay, 0ms) backwards;
+  animation: slide-from-right 1000ms cubic-bezier(0.190, 1.000, 0.220, 1.000) var(--delay, 0ms) backwards;
 }
 
 @keyframes slide-from-left {
