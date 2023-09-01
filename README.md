@@ -1,10 +1,10 @@
 # Hello 👋
-### I'm a highschool sophomore who loves hiking, dogs, and creating websites!
-I know Java, JS, and HTML/CSS. I use them to make websites (frontend and backend), minecraft plugins, and discord bots. If you need any help in any of those fields, go ahead and contact me and I will try my best to help. 😁
+### I'm a highschool junior who loves hiking, dogs, and creating websites!
+I know Java, JS/TS, and HTML/CSS. I use them to make websites (frontend and backend), minecraft plugins, and discord bots. If you need help in any of those fields, go ahead and contact me and I will try my best to help!
 
 ---
 
-**Discord:** `the1withspaghetti#5766`<br>
+**Discord:** `1withspaghetti`<br>
 
 ---
 
